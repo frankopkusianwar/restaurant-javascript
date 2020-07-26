@@ -7,12 +7,16 @@ export const header = () => {
   ul.setAttribute('class', 'nav nav-tabs')
   const home = document.createElement('li')
   home.textContent = 'Home'
+  home.setAttribute('class', 'home')
   const about = document.createElement('li')
   about.textContent = 'About'
+  about.setAttribute('class', 'about')
   const contact = document.createElement('li')
   contact.textContent = 'Contact'
+  contact.setAttribute('class', 'contact')
   const menu4 = document.createElement('li')
   menu4.textContent = 'menu4'
+  menu4.setAttribute('class', 'menu4')
   
   headerDiv.appendChild(h1)
   ul.appendChild(home)
@@ -20,5 +24,4 @@ export const header = () => {
   ul.appendChild(contact)
   ul.appendChild(menu4)
   headerDiv.appendChild(ul)
-
 }
