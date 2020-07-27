@@ -1,8 +1,10 @@
 export const header = () => {
   const headerDiv = document.querySelector('.header')
+  const tabs = document.querySelector('.tabs')
+  tabs.setAttribute('class', 'mt-5 text-white mb-5')
   const nav = document.createElement('nav')
   const h1 = document.createElement('h1')
-  h1.textContent = 'Welcome to My Restaurant'
+  h1.textContent = 'Welcome To Food Heaven'
   const ul = document.createElement('ul')
   ul.setAttribute('class', 'nav nav-tabs')
   const home = document.createElement('li')
@@ -23,5 +25,5 @@ export const header = () => {
   ul.appendChild(about)
   ul.appendChild(contact)
   ul.appendChild(menu4)
-  headerDiv.appendChild(ul)
+  tabs.appendChild(ul)
 }

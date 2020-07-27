@@ -8,7 +8,7 @@ const body = () => {
   
   const tabs = document.querySelectorAll('li')
   const main = document.querySelector('.main')
-  main.innerHTML = '<p>home</p>'
+  main.innerHTML = '<p>Welcone To</p><p>Food Heaven</p><p>our master chefs serve the most delicious variety of the freshest food all over the world</p>'
   tabs.forEach(tab => tab.addEventListener('click', () => {
     if (tab.textContent === 'Home'){
       home()

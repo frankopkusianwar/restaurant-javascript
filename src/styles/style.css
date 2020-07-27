@@ -1,7 +1,28 @@
+body {
+  background-image: url(/dist/5360bb72f968dd61e7a858e988a21916.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 ul li {
   cursor: pointer;
+  font-size: 2em;
+}
+
+.retaurant-name {
+  font-size: 3.5em;
+  font-weight: bold;
+}
+
+.words {
+  font-size: 1.5em;
+  margin-top: 258px;
+  font-weight: bold;
+}
+
+.welcome {
+  font-size: 1.5em;
 }
