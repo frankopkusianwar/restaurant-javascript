@@ -7,21 +7,23 @@ import menu4 from './menu4'
 const body = () => {
   
   const tabs = document.querySelectorAll('li')
-  tabs.forEach(tab => tab.addEventListener('click', (tab) => {
+  const main = document.querySelector('.main')
+  main.innerHTML = '<p>home</p>'
+  tabs.forEach(tab => tab.addEventListener('click', () => {
     if (tab.textContent === 'Home'){
-      console.log('home content')
+      home()
     }
-    else if(tab.textContent === 'About'){
-      console.log('about content')
+    else if(tab.textContent === 'About') {
+      about()
     }
-    else if(tab.textContent === 'Contact'){
-      console.log('contact content')
+    else if(tab.textContent === 'Contact') {
+      contact()
     }
-    else{
-      console.log('menu4')
+    else {
+      menu4()
     }
   }))
-  
+
 }
 
 export { body }
