@@ -1,4 +1,21 @@
+body {
+  background-image: url(/dist/fe04d6583eb58a71eba0da03354d27c9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+ul li {
+  cursor: pointer;
+  font-size: 2em;
+}
 
+.retaurant-name {
+  font-size: 3.5em;
+  font-weight: bold;
+}
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
