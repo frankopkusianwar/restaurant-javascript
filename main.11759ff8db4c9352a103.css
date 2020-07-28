@@ -1,5 +1,5 @@
 body {
-  background-image: url(/dist/fe04d6583eb58a71eba0da03354d27c9.jpg);
+  background-image: url(/dist/1f5daa902520820816cb0023e9857756.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -15,6 +15,16 @@ ul li {
 .retaurant-name {
   font-size: 3.5em;
   font-weight: bold;
+}
+
+.words {
+  font-size: 1.5em;
+  margin-top: 258px;
+  font-weight: bold;
+}
+
+.welcome {
+  font-size: 1.5em;
 }
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
