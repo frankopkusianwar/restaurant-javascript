@@ -9,12 +9,12 @@ const homePage = () => {
   p2.textContent = 'Food Heaven'
   p2.setAttribute('class', 'retaurant-name')
 
-  // const p3 = document.createElement('p')
-  // p3.textContent = 'our master chefs serve the most delicious variety of the freshest food all over the world'
-  // p3.setAttribute('class', 'words text-danger')
+  const p3 = document.createElement('p')
+  p3.textContent = 'our master chefs serve the most delicious variety of the freshest food all over the world'
+  p3.setAttribute('class', 'words')
   
   main.appendChild(p1)
   main.appendChild(p2)
-  // main.appendChild(p3)
+  main.appendChild(p3)
 }
 export default homePage 

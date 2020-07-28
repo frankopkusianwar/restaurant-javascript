@@ -1,14 +1,14 @@
 import home from './home'
 import about from './about'
 import contact from './contact'
-import menu4 from './menu4'
+import menu from './menu4'
 
 
 const body = () => {
   
   const tabs = document.querySelectorAll('li')
   const main = document.querySelector('.main')
-  main.innerHTML = '<p>Welcone To</p><p>Food Heaven</p><p>our master chefs serve the most delicious variety of the freshest food all over the world</p>'
+  main.innerHTML = '<p class="welcome">Welcone To</p><p class="retaurant-name">Food Heaven</p><p class="words">our master chefs serve the most delicious variety of the freshest food all over the world</p>'
   tabs.forEach(tab => tab.addEventListener('click', () => {
     if (tab.textContent === 'Home'){
       home()
@@ -20,7 +20,7 @@ const body = () => {
       contact()
     }
     else {
-      menu4()
+      menu()
     }
   }))
 
