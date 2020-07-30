@@ -1,5 +1,5 @@
 body {
-  background-image: url(/dist/1f5daa902520820816cb0023e9857756.jpg);
+  background-image: url(/dist/d287bae29349a4a24b156f244565411f.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -12,15 +12,19 @@ ul li {
   font-size: 2em;
 }
 
+ul li:hover, .active {
+  background: white;
+  color: green;
+}
+
 .retaurant-name {
   font-size: 3.5em;
   font-weight: bold;
 }
 
 .words {
-  font-size: 1.5em;
-  margin-top: 258px;
-  font-weight: bold;
+  font-size: 2em;
+  margin-top: 120px;
 }
 
 .welcome {
