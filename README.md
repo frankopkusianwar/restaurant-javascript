@@ -1,4 +1,4 @@
-# Ruby on Rails Capstone project
+# Restaurant Page
 
 ## Description
 
@@ -9,11 +9,16 @@ In this project I built a simple reataurant page showcasing the use of modulariz
 - You can view page different content by switching through different tabs
 
 ## Home page
-![screenshot]()
+![screenshot](./screenshots/home.PNG)
 
-## Profile page
+## Menu page
 
-![screenshot]()
+![screenshot](./screenshots/menu.PNG)
+
+## Contact page
+
+![screenshot](./screenshots/contact.PNG)
+
 
 ## Built With
 
