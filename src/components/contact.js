@@ -29,8 +29,21 @@ const contactPage = () => {
 
   const contactDiv2 = document.createElement('div')
   contactDiv2.setAttribute('class', 'col-5 bg-white text-dark')
-  contactDiv2.innerHTML = `<h3>Contact Us</h3>
-  <p>MON:</P>
+  contactDiv2.innerHTML = `<h3 class="mb-3">Open Time</h3>
+  <div class="row">
+    <div class="col-6">
+      <p><b>LOCATION:</b></p>
+      <p>No. 120 E 4th Ave, Uganda</p>
+    </div>
+    <div class="col-6">
+      <p><b>PHONE:</b></p>
+      <p>1234 567 891</p>
+    </div>
+    <div class="col-6">
+      <p><b>EMAIL:</b></p>
+      <p>reservation@foodheaven.com</p>
+    </div>
+    <div>
   `
 
 
