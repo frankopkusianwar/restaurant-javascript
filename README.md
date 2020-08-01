@@ -30,7 +30,7 @@ In this project I built a simple reataurant page showcasing the use of modulariz
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://frankopkusianwar.github.io/restaurant-javascript/)
 
 ## Getting Started
 

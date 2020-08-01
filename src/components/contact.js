@@ -1,12 +1,12 @@
 const contactPage = () => {
   document.querySelector('.main').innerHTML = '';
   const main = document.querySelector('.main');
-  
-  const contactDiv = document.createElement('div')
-  contactDiv.setAttribute('class', 'row')
 
-  const contactDiv1 = document.createElement('div')
-  contactDiv1.setAttribute('class', 'col-5 bg-white text-dark p-3')
+  const contactDiv = document.createElement('div');
+  contactDiv.setAttribute('class', 'row');
+
+  const contactDiv1 = document.createElement('div');
+  contactDiv1.setAttribute('class', 'col-5 bg-white text-dark p-3');
   contactDiv1.innerHTML = `<h3 class="mb-3">Open Time</h3>
   <div class="row">
     <div class="col-6">
@@ -21,14 +21,14 @@ const contactPage = () => {
       <p><b>SUN :</b> CLOSED</P>
     </div>
     <div>
-  `
+  `;
 
-  const btn = document.createElement('div')
-  btn.setAttribute('class', 'col-2')
+  const btn = document.createElement('div');
+  btn.setAttribute('class', 'col-2');
 
 
-  const contactDiv2 = document.createElement('div')
-  contactDiv2.setAttribute('class', 'col-5 bg-white text-dark')
+  const contactDiv2 = document.createElement('div');
+  contactDiv2.setAttribute('class', 'col-5 bg-white text-dark');
   contactDiv2.innerHTML = `<h3 class="mb-3">Open Time</h3>
   <div class="row">
     <div class="col-6">
@@ -44,19 +44,15 @@ const contactPage = () => {
       <p>reservation@foodheaven.com</p>
     </div>
     <div>
-  `
+  `;
 
 
-
-  contactDiv.appendChild(contactDiv1)
-  contactDiv.appendChild(btn)
-  contactDiv.appendChild(contactDiv2)
-
-
-  main.appendChild(contactDiv)
+  contactDiv.appendChild(contactDiv1);
+  contactDiv.appendChild(btn);
+  contactDiv.appendChild(contactDiv2);
 
 
-
+  main.appendChild(contactDiv);
 };
 
 export default contactPage;
