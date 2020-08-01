@@ -3,16 +3,19 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 ul {
   display: flex;
   justify-content: space-around;
 }
+
 ul li {
   cursor: pointer;
   font-size: 2em;
 }
 
-ul li:hover, .active {
+ul li:hover,
+.active {
   background: white;
   color: green;
 }
