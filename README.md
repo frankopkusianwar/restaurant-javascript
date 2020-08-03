@@ -26,7 +26,7 @@ In this project I built a simple reataurant page showcasing the use of modulariz
 - CSS3
 - Bootstrap
 - JavaScript
-- Web-Pack
+- Webpack
 
 ## Live Demo
 
